@@ -63,6 +63,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
+* {
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -470,7 +475,7 @@ header.sticky .nav-bar{
 .about-img img{
     max-width: 70%;
     min-width: 450px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .about-info .description{
