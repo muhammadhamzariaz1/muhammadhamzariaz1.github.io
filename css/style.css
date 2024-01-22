@@ -694,8 +694,16 @@ header.sticky .nav-bar{
     width: 55%;
 }
 
-.bar .linux:before{
+.bar .osint:before{
+    width: 80%;
+}
+
+.bar .debian-linux:before{
     width: 95%;
+}
+
+.bar .kali-linux:before{
+    width: 90%;
 }
 
 .bar .command-line:before{

@@ -182,6 +182,13 @@
                 </div>
                 <div class="line wireshark"></div>
               </li>
+              <li class="bar">
+                <div class="info">
+                  <span>OSINT</span>
+                  <span>80%</span>
+                </div>
+                <div class="line osint"></div>
+              </li>
             </ul>
           </div>
           <div class="education">
@@ -189,10 +196,17 @@
             <ul class="bars">
               <li class="bar">
                 <div class="info">
-                  <span>Linux (Debian)</span>
+                  <span>Debian Linux (Development)</span>
                   <span>95%</span>
                 </div>
-                <div class="line linux"></div>
+                <div class="line debian-linux"></div>
+              </li>
+              <li class="bar">
+                <div class="info">
+                  <span>Kali Linux (Cyber)</span>
+                  <span>90%</span>
+                </div>
+                <div class="line kali-linux"></div>
               </li>
               <li class="bar">
                 <div class="info">
@@ -369,7 +383,7 @@
                 <h3>Cybersecurity</h3>
                 <h4>Network Security Specialist</h4>
                 <p>
-                  Offering expertise in network security, I specialize in safeguarding digital assets and protecting against cyber threats. My services include robust security measures, vulnerability assessments, and secure network architectures.
+                  I specialize in safeguarding digital assets, protecting against cyber threats, and conducting Open Source Intelligence (OSINT) investigations. My services include robust security measures, vulnerability assessments, and comprehensive OSINT analysis.
                 </p>
                 <h3>What I Provide</h3>
                 <ul>
@@ -380,7 +394,7 @@
                     <i class="fas fa-check-circle"></i> Vulnerability Assessments
                   </li>
                   <li>
-                    <i class="fas fa-check-circle"></i> Cyber Threat Protection
+                    <i class="fas fa-check-circle"></i> Open Source Intelligence
                   </li>
                 </ul>
               </div>
@@ -494,27 +508,26 @@
             </li>
           </ul>
         </div>
-
         <div class="contact-right">
           <p>
             I'm always open to discussing product<br /><span>development work or partnerships.</span>
           </p>
-          <form action="" class="contact-form">
+          <form action="https://formspree.io/f/xvoezzzo" method="POST" class="contact-form">
             <div class="first-row">
-              <input type="text" placeholder="Name" />
+              <input type="text" name="name" placeholder="Name" />
             </div>
             <div class="second-row">
-              <input type="email" placeholder="Email" />
-              <input type="text" placeholder="Subject" />
+              <input type="email" name="email" placeholder="Email" />
+              <input type="text" name="subject" placeholder="Subject" />
             </div>
             <div class="third-row">
-              <textarea name="message" id="" rows="7" placeholder="Message"></textarea>
+              <textarea name="message" rows="7" placeholder="Message"></textarea>
             </div>
             <button class="btn" type="submit">
               Send Message <i class="fas fa-paper-plane"></i>
             </button>
           </form>
-        </div>
+        </div>        
       </div>
     </div>
   </section>
