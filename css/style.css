@@ -658,6 +658,10 @@ header.sticky .nav-bar{
     width: 90%;
 }
 
+.bar .seo:before{
+    width: 78%;
+}
+
 .bar .bootstrap:before{
     width: 85%;
 }
@@ -803,7 +807,7 @@ header.sticky .nav-bar{
     transform: translateX(10px);
 }
 
-.learn-more-cyber {
+.learn-more-osint {
     margin-top: 50px;
 }
 
@@ -844,10 +848,17 @@ header.sticky .nav-bar{
 
 .service-modal-body .modal-close-btn{
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 18px;
+    right: 5px;
     margin: 20px;
     cursor: pointer;
+    font-size: 22px;
+}
+
+.modal-close-btn:hover{
+    color: var(--hover-color);
+    transition: ease-in-out;
+    transition-duration: 0.2s;
 }
 
 .service-modal-body h3{
@@ -971,10 +982,17 @@ header.sticky .nav-bar{
 
 .portfolio-close-btn{
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 18px;
+    right: 5px;
     margin: 20px;
     cursor: pointer;
+    font-size: 22px;
+}
+
+.portfolio-close-btn:hover{
+    color: var(--hover-color);
+    transition: ease-in-out;
+    transition-duration: 0.2s;
 }
 
 .portfolio-modal-body h3{
@@ -985,6 +1003,28 @@ header.sticky .nav-bar{
     width: 100%;
     margin: 20px 0;
     border-radius: 10px;
+}
+
+.btn-visit {
+    margin-left: 35%;
+}
+
+@media screen and (max-width: 426px) {
+    .btn-visit {
+        margin-left: 29%;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .btn-visit {
+        margin-left: 25%;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .btn-visit {
+        margin-left: 22%;
+    }
 }
 
 /* =====Get in Touch===== */
